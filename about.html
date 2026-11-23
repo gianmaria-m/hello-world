@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About the site. — gianmaria-m/hello-world</title>
+  <meta name="description" content="Informazioni sul sito gianmaria-m/hello-world: architettura essenziale, tecnologie utilizzate e pubblicazione su GitHub Pages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-frame" id="about-card">
+    <header class="header-meta">
+      <a class="repo-label" href="index.html">gianmaria-m/hello-world</a>
+      <nav class="site-nav" aria-label="Navigazione principale">
+        <a class="nav-link" id="nav-home" href="index.html">Home</a>
+        <a class="nav-link" id="nav-about" href="about.html" aria-current="page">About</a>
+      </nav>
+    </header>
+
+    <section class="hero hero--compact">
+      <h1 class="greeting-title">
+        About the site<span class="punctuation">.</span>
+      </h1>
+      <p class="greeting-subtitle">
+        Un piccolo laboratorio web statico, nato come punto di partenza pulito e pubblicato direttamente su GitHub Pages.
+      </p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="about-prose" aria-label="Descrizione del progetto">
+      <p>
+        Questo sito è costruito intenzionalmente senza framework, bundler o dipendenze di build: solo HTML5 semantico, CSS vanilla e JavaScript leggero.
+      </p>
+      <p>
+        L’obiettivo è mantenere ogni pagina rapida da caricare, facile da leggere nel codice sorgente e pronta a crescere nel tempo aggiungendo nuovi esperimenti.
+      </p>
+    </section>
+
+    <hr class="divider">
+
+    <section aria-label="Dettagli tecnici">
+      <dl class="spec-list">
+        <dt>Repository</dt>
+        <dd>
+          <a class="text-link" id="repo-github-link" href="https://github.com/gianmaria-m/hello-world" target="_blank" rel="noopener noreferrer">
+            github.com/gianmaria-m/hello-world
+          </a>
+        </dd>
+
+        <dt>Hosting</dt>
+        <dd>GitHub Pages (deploy automatico dal branch <code>main</code>)</dd>
+
+        <dt>Stack</dt>
+        <dd>HTML5, Vanilla CSS, JavaScript</dd>
+
+        <dt>Tipografia</dt>
+        <dd>Fraunces, Plus Jakarta Sans e JetBrains Mono</dd>
+      </dl>
+    </section>
+
+    <footer class="page-footer">
+      <a class="text-link" id="back-home-link" href="index.html">← Torna a Hello, World</a>
+      <span>about.html</span>
+    </footer>
+  </main>
+</body>
+</html>
